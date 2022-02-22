@@ -1,0 +1,3 @@
+#include <time.h>
+srand(time(NULL));
+int randInt = (rand() % 21) + 80;
